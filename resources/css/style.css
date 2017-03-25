@@ -187,3 +187,95 @@ h2.usages-title{
 span.command-description{
     
 }
+
+.commands{
+    position: relative;
+}
+
+.bot-background{
+    height: 6rem;
+    width: 11rem;
+    top: -4rem;
+    right: 5rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+table{
+    display: table;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.9rem;
+}
+
+#table-title{
+    font-size: 1rem;
+    color: #264880;
+    font-weight: bolder;
+}
+
+td, th{
+    text-align: left;
+    padding: 0.3rem 0;
+}
+
+.command-data{
+    font-size: 0.8rem;
+    margin-right: 0.9rem;
+}
+
+.usages{
+    border-bottom: 10px solid #9bcceb;
+}
+
+/***********************/
+/** FOOTER SECTION    **/
+/***********************/
+
+#footer{
+    background: #fff;
+    min-height: 6rem;
+}
+
+.help-img{
+    position: relative;
+}
+
+a.policy:link{
+    position: absolute;
+    font-size: 0.8rem;
+    left: 4rem;
+    bottom: 0rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: #264880;
+    border-radius: 0.3rem 0.3rem 0 0;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+}
+
+a.policy:hover,
+a.policy:visited{
+    background: #9bcceb;
+    color: #264880;
+}
+
+.footer-img{
+    height: 6rem;
+    overflow: hidden;
+    width: 11rem;
+    bottom: 0rem;
+    right: 3rem;
+    position: absolute;
+}
+h4{
+    color: #264880;
+}
+h4 a i{
+    font-size: 1.8rem;
+}
+.social-links{
+    padding: 2rem;
+    text-align:left;
+}
+

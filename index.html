@@ -15,6 +15,7 @@
         <link rel="shortcut icon" href="/resources/images/favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         <link href="resources/css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -68,11 +69,57 @@
                    <p><strong>Happy searching!</strong></p>
                </section>
                   
-               <section class="grid-half">
-                   
+               <section class="grid-half commands">
+                   <div class="bot-background">
+                       <img src="resources/images/bot_command.svg" alt="">
+                   </div>
+                   <table class="command-table">
+                       <tbody>
+                           <tr><td id="table-title">Available Commands</td></tr>
+                           <tr>
+                               <td><code class="inverse">/mdnbot</code> <span class="command-data">This command returns a brief description of the app and a basic how-to-use instruction.</span></td>
+                           </tr>
+                           
+                           <tr>
+                               <td><code class="inverse">/mdnbot-search [searchTerm] [searchTopic]*</code><br><span class="command-data">This command performs a private search and resturns a maximum of 10 results, which are only visible to you.</span></td>
+                           </tr>
+                           
+                           <tr>
+                               <td><code class="inverse">/mdnbot-show [searchTerm] [searchTopic] [itemNumber] *</code><br><span class="command-data">This command performs a public search and returns 1 result, which is visible for everyone. If, for example, you want to show the 4th item of your search, just add the number 4 to the end of your show command.</span></td>
+                           </tr>
+                           
+                           <tr>
+                               <td><code class="inverse">/mdnbot-random</code><span class="command-data">This command performs a public search with a random term and returns a single result, which is visible to everyone.</span></td>
+                           </tr>
+                           
+                           <tr>
+                               <td><span class="command-data"><strong>* searchTopic and itemNumber </strong>are optional parameters.</span></td>
+                           </tr>
+                       </tbody>
+                   </table>
                </section>
            </div>
        </div>
+       
+      <!-- FOOTER SECTION    -->
+       
+       <footer class="row dock" id="footer">
+           
+           <section class="grid-half help-img">
+               <a href="#" alt="Privacy Policy Link" class="policy"><i class="fa fa-user-secret" aria-hidden="true"></i>&nbsp;&nbsp;Privacy policy</a>
+               <div class="footer-img">
+                   <img src="resources/images/bot_help.svg" alt="Bot Help Image">
+               </div>
+           </section>
+           
+           <section class="grid-half social-links">
+               <h4>Need help or found an issue...
+               <a href="#" alt="Github Issues Link"><i class="ion-social-github"></i></a>
+               <a href="#" alt="Email Link"><i class="ion-ios-email"></i></a>               
+               </h4>
+           </section>
+           
+       </footer>
         
     </body>
 </html>
