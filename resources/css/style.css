@@ -195,7 +195,7 @@ span.command-description{
 .bot-background{
     height: 6rem;
     width: 11rem;
-    top: -4rem;
+    top: -5rem;
     right: 5rem;
     position: absolute;
     overflow: hidden;
@@ -206,6 +206,8 @@ table{
     background: #fff;
     border-radius: 5px;
     padding: 0.9rem;
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 10px #689bbc;
 }
 
 #table-title{
@@ -235,6 +237,9 @@ td, th{
 #footer{
     background: #fff;
     min-height: 6rem;
+    position: relative;
+    padding: 0;
+    padding-top: 2rem;
 }
 
 .help-img{
@@ -244,14 +249,15 @@ td, th{
 a.policy:link{
     position: absolute;
     font-size: 0.8rem;
-    left: 4rem;
+    left: 2rem;
     bottom: 0rem;
     font-weight: 600;
     text-decoration: none;
     background: #264880;
     border-radius: 0.3rem 0.3rem 0 0;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.5rem ;
     color: #fff;
+    margin: 0;
 }
 
 a.policy:hover,
@@ -265,17 +271,23 @@ a.policy:visited{
     overflow: hidden;
     width: 11rem;
     bottom: 0rem;
-    right: 3rem;
+    right: 2rem;
     position: absolute;
 }
 h4{
     color: #264880;
+    margin: 0;
 }
-h4 a i{
+
+a i.ion-ios-email,
+a i.ion-social-github{
+    margin: 0;
+    padding: 0;
     font-size: 1.8rem;
 }
+
 .social-links{
-    padding: 2rem;
+    padding: 2rem 1rem 1rem 1rem;
     text-align:left;
 }
 
