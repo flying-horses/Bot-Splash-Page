@@ -127,7 +127,8 @@ span.credits{
     letter-spacing: 0.15rem;
 }
 
-a.support{
+a.support:link,
+a.support:visited{
     bottom: -5.15rem;
     position: absolute;
     font-size: 1rem;
@@ -143,7 +144,7 @@ a.support{
 }
 
 a.support:hover,
-a.support:visited{
+a.support:active{
     color: #fff;
     background: #264880;
 }
@@ -218,7 +219,7 @@ table{
 
 td, th{
     text-align: left;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
 }
 
 .command-data{
@@ -246,7 +247,8 @@ td, th{
     position: relative;
 }
 
-a.policy:link{
+a.policy:link,
+a.policy:visited{
     position: absolute;
     font-size: 0.8rem;
     left: 2rem;
@@ -261,7 +263,7 @@ a.policy:link{
 }
 
 a.policy:hover,
-a.policy:visited{
+a.policy:active{
     background: #9bcceb;
     color: #264880;
 }
@@ -279,8 +281,8 @@ h4{
     margin: 0;
 }
 
-a i.ion-ios-email,
-a i.ion-social-github{
+a i.fa-github,
+a i.fa-envelope{
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
@@ -291,3 +293,27 @@ a i.ion-social-github{
     text-align:left;
 }
 
+
+
+/****************************/
+/** PRIVACY POLICY PAGE    **/
+/****************************/
+
+/******* POLICY CONTENT *******/
+
+a.home-button{
+    background: #fff;
+    color: #264880;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+a.home-button:hover,
+a.home-button:visited{
+    box-shadow: 5px 5px 10px rgba(134, 134, 134, 0.92);    
+}
