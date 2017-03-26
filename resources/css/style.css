@@ -295,6 +295,140 @@ a i.fa-envelope{
 
 
 
+
+/***********************/
+/** Feedback Page     **/
+/***********************/
+
+/*container for image and form*/
+.support {
+    background: #9bcceb;
+}
+
+.grid-full{
+    width: 100%;
+}
+
+.container-small{
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    text-align: center;
+}
+#form {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 4rem;
+    position: relative;
+}
+
+/*image*/
+.bot-image {
+    position: absolute;
+    right: 4rem;
+    top: -5rem;
+    width: 11rem;
+    height: 6rem;
+    overflow: hidden;
+}
+
+/*form container*/
+.form{
+    background: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px #689bbc;
+    display: block;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+
+/*email directly*/
+a.directmail{
+    background: #9bcceb;
+    border-radius: 0.3rem;
+    color: #264880;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.6rem auto;
+    padding: 0.5rem;
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    width: 8rem;
+}
+
+a.directmail:hover{
+    background: #264880;
+    color: white;
+}
+
+h2.help{
+    text-align: left;
+}
+
+input,
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea{
+    background: whitesmoke;
+    border: none;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background: #9bcceb;
+    box-shadow: 4px 4px 8px whitesmoke;
+    color: #264880;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background: #264880;
+    border-radius: 0.3rem;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+textarea{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.error{
+    display: none;
+    color: red;
+    font-size: 0.8rem;
+}
+/*homepage button*/
+a.button {
+    background: white;
+    border-radius: 0.3rem;
+    color: #264880;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    width: auto;
+}
+
+a.button:hover{
+    box-shadow: 5px 5px 10px #689bbc;
+}
+
+
+
 /****************************/
 /** PRIVACY POLICY PAGE    **/
 /****************************/

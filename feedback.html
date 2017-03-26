@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MDN Bot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-config" content="/resources/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/resources/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/resources/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/resources/images/manifest.json">
+    <link rel="mask-icon" href="/resources/images/safari-pinned-tab.svg" color="#2b5797">
+    <link rel="shortcut icon" href="/resources/images/favicon.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    <!--Header Plan-->
+    <div class="row header">
+        <header id="header" class="dock">
+            <!--Header Left Image-->
+            <div class="grid-half header-img">
+                <img src="resources/images/bot-logo.svg" alt="Header Bot Image" id="logo">
+            </div>
+            <!--Header Right Part-->
+            <div class="grid-half header-title">
+                <h1>MDNBot</h1>
+                <span class="credits">A slack app by <strong>FLYING HORSES</strong></span>
+                <a href="#"><img src="resources/images/add_to_slack.png" alt=""></a>
+            </div>
+        </header>
+    </div>
+
+    <!--Main Plan-->
+    <div class="row support">
+        <div class="dock grid-full">
+            <section id="form" class="grid-full">
+                <!----------Bot-image-------------->
+                <div class="bot-image">
+                    <img src="resources/images/bot_support.svg" alt="Bot Support">
+                </div>
+
+                <!----------Form------------------->
+                <div class="form">
+                    <a href="mailto:vishami3r@outlook.com?subject=Bot Support Request" class="directmail"><i class="fa fa-envelope-o"></i>&nbsp;Email directly</a>
+                    <h2 class="help">Help / Feedback</h2>
+                    <p>Please send us your questions, bug reports, complaints, praise,
+                        feature requests - every little bit helps.
+                        Let us know what we can do to improve MDNBot.
+                    </p>
+
+                    <form id="support-form" action="#" method="POST">
+                        <input type="email" placeholder="Your email" name="_replyto">
+                        <label class="error" style="display: none;">
+                            Email is required
+                        </label>
+                        <textarea name="message" id="message" rows="6" placeholder="Your message"></textarea>
+                        <label class="error" style="display: none;">
+                            Your message is required
+                        </label>
+                        <input type="submit" value="Send" id="submit">
+                    </form>
+                </div>
+            </section>
+
+            <!----------Homepage button------------------->
+            <section class="grid-full container-small">
+                <a href="https://flying-horses.github.io/Bot-Splash-Page/index.html" title="MDNBot homepage" class="button">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;MDNBot homepage
+                </a>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+</html>
