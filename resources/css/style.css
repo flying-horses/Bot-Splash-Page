@@ -53,11 +53,11 @@ code.inverse{
 
 /********LINKS***********/
 
-a {
+a:link, a:visited {
     background-color: transparent;
     color: #264880;
 }
-a:hover, a:visited {
+a:hover, a:active {
     color: #26a3dd;
 }
 
