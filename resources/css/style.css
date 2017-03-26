@@ -426,10 +426,19 @@ a.button:hover{
     box-shadow: 5px 5px 10px #689bbc;
 }
 
+/***********************/
+/** Privacy Policy Page**/
+/***********************/
+.instructions {
+    background: #9bcceb;
+}
 
-
-
-
+.section-title{
+    letter-spacing: 0.1rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
